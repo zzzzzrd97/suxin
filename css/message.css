@@ -1,0 +1,176 @@
+.menu{
+    display: flex;
+}
+.menu>li{
+    width: 86px;
+    height: 76.4px;
+}
+.boxBBB{
+    position: relative;
+}
+.boxBBB:hover .more{
+    display: block;
+}
+.sanj1{
+    border: 5px solid;
+    position: relative;
+    top: -33px;
+    left: 36px;
+    border-color: #16b0dc white white white;
+}
+.poi{
+    display: block;
+    width: 0;
+    position: absolute;
+    top: -16px;
+    left: 134px;
+    border-color: white white  #16b0dc white ;
+}
+.more {
+    width: 150px;
+    height: 80px;
+    background: white;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    color: #000;
+    line-height: 40px;
+    display: none;
+}
+.saveText{
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.saveText>span{
+    float: left;
+}
+.flowerSay{
+    height: 942px;
+}
+.contList{
+    width: 780px;
+    height: 763px;
+}
+.fsCont{
+    height: 763px;
+}
+.search{
+    width: 360px;
+    padding: 30px;
+    margin-left: 30px;
+    box-sizing: border-box;
+}
+.fsContBox{
+    height: 823px;
+}
+.contList>ul{
+    width: 100%;
+    height: 100%;
+}
+.contList>ul>li{
+    width: 100%;
+    padding: 10px 0 ;
+    border-bottom: 1px solid #e4eaec;
+    margin: 0 auto;
+}
+.userMessage{
+    width: 100%;
+    height: 100%;
+    padding: 2px 0;
+    background: white;
+}
+.imgHead{
+    float: left;
+}
+.imgHead>i{
+    font-size: 36px;
+    color: #a3afb7;
+    margin-right: 10px;
+}
+.userSay{
+    width: 671.2px;
+    float: left;
+    position: relative;
+}
+.userSay>h4{
+    font-size: 14px;
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+.userSay>p{
+    font-size: 14px;
+    color: #76838f;
+    margin-bottom: 11px;
+}
+.backMess{
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #e4eaec;
+    border-radius: 3px;
+    background: #f3f7f9;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.messDate{
+    font-size: 10.5px;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    color: #a3afb7;
+}
+.search{
+    height: 461.6px;
+    position: relative;
+}
+.search>input{
+    width: 100%;
+    height: 36px;
+    border: 1px solid #e4eaec;
+    outline: none;
+    padding: 6px 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    color: #76838f;
+}
+#bigHeight{
+    height: 122px;
+    border: 1px solid #e4eaec;
+    outline: none;
+    padding: 6px 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #76838f;
+    font-weight: 500;
+}
+#yanzheng{
+    width: 188.8px;
+}
+#yanzImg{
+    display: inline-block;
+    width: 111.2px;
+    height: 36px;
+    background: #e4eaec;
+    text-align: center;
+    line-height: 43.6px;
+    position: absolute;
+    right: 30px;
+    top: 340px;
+    border: 1px solid #e4eaec;
+    box-sizing: border-box;
+}
+.tijiao{
+    height: 35.6px;
+    background: #62a8ea;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+}
+.tijiao:hover{
+    background: rgba(98,168,234,0.8);
+}
